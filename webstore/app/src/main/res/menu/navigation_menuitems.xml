@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_news"
+            android:icon="@drawable/ic_update_white_24dp"
+            android:title="@string/nav_news"/>
+        <item
+            android:id="@+id/nav_foodandhealth"
+            android:icon="@drawable/ic_local_pharmacy_white_24dp"
+            android:title="@string/nav_food_health" />
+        <item
+            android:id="@+id/nav_love_family"
+            android:icon="@drawable/ic_favorite_border_white_24dp"
+            android:title="@string/nav_love" />
+        <item
+            android:id="@+id/nav_famous"
+            android:icon="@drawable/ic_stars_white_24dp"
+            android:title="@string/nav_entertainment"/>
+        <!--
+        <item
+            android:id="@+id/nav_shopping"
+            android:icon="@drawable/ic_store_white_24dp"
+            android:title="@string/nav_shopping" />
+        <item
+            android:id="@+id/nav_games"
+            android:icon="@drawable/ic_videogame_asset_white_24dp"
+            android:title="@string/nav_games"/>
+            -->
+        <item
+            android:id="@+id/nav_cooking"
+            android:icon="@drawable/ic_restaurant_menu_white_24dp"
+            android:title="@string/nav_food_cooking" />
+        <item
+            android:id="@+id/nav_music_film"
+            android:icon="@drawable/ic_library_music_white_24dp"
+            android:title="@string/nav_music_film"/>
+
+        <item
+            android:id="@+id/nav_findaround"
+            android:icon="@drawable/ic_location_on_white_24dp"
+            android:title="@string/nav_findaround"/>
+        <item
+            android:id="@+id/nav_webapps"
+            android:icon="@drawable/ic_apps_white_24dp"
+            android:title="@string/nav_webapps"/>
+        <item
+            android:id="@+id/nav_webstore"
+            android:icon="@drawable/ic_web_white_24dp"
+            android:title="@string/nav_webstore"/>
+    </group>
+</menu>

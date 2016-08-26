@@ -1,0 +1,18 @@
+.article {
+	width: 100%;
+}
+
+div.article > h3 {
+	font-size:30px;
+	color:#000;
+	font-family: 'Noto Serif', serif;
+}
+
+div.article > p {
+	color:#333;
+	font-size:20px;
+	font-family: 'Noto Serif', serif';
+}
+div.article > img {
+	width: 100%;
+}
